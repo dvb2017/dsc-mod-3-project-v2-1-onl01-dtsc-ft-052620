@@ -13,11 +13,11 @@ Business Case - A bank would like to improve their ability to predict credit car
 
 ## Table of Contents
 
-- presentation.pdf - a pdf file containing the powerpoint slides
-- student.ipynb - Jupyter Notebook containing notated code
-- README.md - this file, serving as a directory
-- UCI_Credit_Card.csv - the dataset used here.
-- Charts - a folder containing all of the charts generated.  
+- 'presentation.pdf' - a pdf file containing the powerpoint slides
+- 'student.ipynb' - Jupyter Notebook containing notated code
+- 'README.md' - this file, serving as a directory
+- 'UCI_Credit_Card.csv' - the dataset used here.
+- 'charts' - a folder containing all of the charts generated.  
 
 ## The Dataset
 
@@ -30,6 +30,15 @@ The data cleaning aspect of this project was fairly straightforward.  There were
 ## The Modeling
 
 For the modeling I had a fairly specific idea in mind.  I was interested in graphing the effect certain hyperparameters would have on various estimators, so I looped through various classifiers while a hyperparameter constantly shifted.  Graphing the resulting training and test accuracy allowed me to find maximum values for each parameter that I could combine for the ideal model.  
+
+Example 1:
+![yield-sector](https://github.com/dvb2017/credit-card-defaults/blob/master/charts/acc_vs_est.png)
+
+Example 2:
+![yield-sector](https://github.com/dvb2017/credit-card-defaults/blob/master/charts/acc_vs_rate.png)
+
+Example 3:
+![yield-sector](https://github.com/dvb2017/credit-card-defaults/blob/master/charts/forest_split.png)
 
 ## Conclusion/Results
 
